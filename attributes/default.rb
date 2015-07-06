@@ -8,7 +8,6 @@ default[:dspam][:spamAction]="deliver"
 default[:dspam][:spamSubject]="[SPAM]"
 default[:dspam][:enableBNR]="on"
 default[:dspam][:enableWhitelist]="on"
-default[:dspam][:enableBNR]="on"
 default[:dspam][:statisticalSedation]=5
 default[:dspam][:signatureLocation]="message"
 default[:dspam][:whitelistThreshold]=10
