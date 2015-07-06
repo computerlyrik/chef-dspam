@@ -10,34 +10,34 @@
 # in the DSPAM Administrative Suite.
 
 # Training Mode: TEFT, TOE, TUM, NOTRAIN
-trainingMode=<%=node[:dspam][:trainingMode]%>
+trainingMode=<%=node["dspam"]["trainingMode"]%>
 
 # Spam Action: quarantine, tag, deliver
-spamAction=<%=node[:dspam][:spamAction]%>
+spamAction=<%=node["dspam"]["spamAction"]%>
 
 # Spam Subject: the text to be prepended onto the subject line of tagged spams
-spamSubject=<%=node[:dspam][:spamSubject]%>
+spamSubject=<%=node["dspam"]["spamSubject"]%>
 
 # Bayesian Noise Reduction: on/off
-enableBNR=<%=node[:dspam][:enableBNR]%>
+enableBNR=<%=node["dspam"]["enableBNR"]%>
 
 # Automatic Whitelisting: on/off
-enableWhitelist=<%=node[:dspam][:enableWhitelist]%>
+enableWhitelist=<%=node["dspam"]["enableWhitelist"]%>
 
 # Statistical Sedation: 0-10
-statisticalSedation=<%=node[:dspam][:statisticalSedation]%>
+statisticalSedation=<%=node["dspam"]["statisticalSedation"]%>
 
 # Signature Location: message, headers, attachment
-signatureLocation=<%=node[:dspam][:optOut]%>
+signatureLocation=<%=node["dspam"]["optOut"]%>
 
 # Whitelist Threshold: the minimum number of innocent hits from a recipient to
 # be automatically whitelisted. Do not set this value too low!
-whitelistThreshold=<%=node[:dspam][:optOut]%>
+whitelistThreshold=<%=node["dspam"]["optOut"]%>
 
 # showFactors: when set to on, the determining factors for each message will
 # be added to a X-DSPAM-Factors message header.
-showFactors=<%=node[:dspam][:optOut]%>
+showFactors=<%=node["dspam"]["optOut"]%>
 
 # optIn/optOut: Depending on the opt mode set, you can also use one of these.
-optIn=<%=node[:dspam][:optIn]%>
-optOut=<%=node[:dspam][:optOut]%>
+optIn=<%=node["dspam"]["optIn"]%>
+optOut=<%=node["dspam"]["optOut"]%>

@@ -25,9 +25,9 @@ service "dspam" do
 end
 
 template "/etc/default/dspam" do
-  notifies :restart, resources(:service => "dspam")
+  notifies :restart, "service[dspam]"
 end
 
 template "/etc/dspam/dspam.conf" do
-  notifies :restart, resources(:service => "dspam")
+  notifies :restart, "service[dspam]"
 end

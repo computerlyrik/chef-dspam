@@ -1,9 +1,9 @@
 # Variables for dspam.
 #
 # Do not start dspam.
-START=<%= node[:dspam][:enable] %>
+START=<%= node["dspam"]["enable"] %>
 # User that runs dspam.
-USER=<%= node[:dspam][:user] %>
+USER=<%= node["dspam"]["user"] %>
 
 # Options for dspam.
 #OPTIONS="--debug"
