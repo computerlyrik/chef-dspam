@@ -1,3 +1,7 @@
+
+[![Build Status](https://travis-ci.org/computerlyrik/chef-dspam.png)](https://travis-ci.org/computerlyrik/chef-dspam)
+
+
 Description
 ===========
 
