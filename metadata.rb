@@ -1,3 +1,4 @@
+name             "dspam"
 maintainer       "computerlyrik"
 maintainer_email "chef-cookbooks@computerlyrik.de"
 license          "Apache 2.0"
